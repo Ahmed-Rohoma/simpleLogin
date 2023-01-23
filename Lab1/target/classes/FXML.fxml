@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(to bottom right, red , blue);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gov.iti.jets.Controller2">
+   <children>
+      <Label fx:id="userName" layoutX="254.0" layoutY="65.0" prefHeight="18.0" prefWidth="101.0" text="medhat" />
+      <TextField fx:id="messg" layoutX="19.0" layoutY="459.0" onAction="#newMessage" prefHeight="26.0" prefWidth="362.0" />
+      <VBox fx:id="vBox" layoutX="19.0" layoutY="118.0" prefHeight="325.0" prefWidth="362.0" style="-fx-background-color: linear-gradient(#205058, #61a2b1);">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <ImageView fx:id="userImage" id="img" fitHeight="82.0" fitWidth="89.0" layoutX="19.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="per.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
