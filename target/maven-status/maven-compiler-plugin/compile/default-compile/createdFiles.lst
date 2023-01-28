@@ -1,4 +1,5 @@
 gov\iti\jets\Controller.class
 module-info.class
 gov\iti\jets\Controller2.class
+gov\iti\jets\UserModel.class
 gov\iti\jets\App.class
